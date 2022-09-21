@@ -65,12 +65,10 @@ export const config = {
       id: "",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "dOHYjIucHLOgQ10jPrpxuKnaX7hYozzzYEV3QNrepEE",
-      // 所在省份
-      province: "北京",
       // 所在城市
-      city: "海淀",
+      city: "北京",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '11-09',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -88,15 +86,14 @@ export const config = {
         {"keyword": "love_day", date: "2022-03-26"},
         // 结婚纪念日
         {"keyword": "marry_day", date: "2024-03-26"},
-        // 退伍日
       ]
     },
     {
       name: "大坏猫",
       id: "o6N6g6vH-H8SEBlFO-DAo1T4odJY",
       useTemplateId: "ByTiUlLKSJoQJw0qVa2UHTLjHomarVtVWY8mFui1Gl0",
-      province: "",
-      city: "",
+      province: "北京",
+      city: "海淀",
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "",
@@ -170,12 +167,8 @@ export const config = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
-    // 你可以不断按格式往下增加
+        {"type": "*阴历生日", "name": "小猫咪", "year": "1999", "date": "03-24"},
+        {"type": "阳历生日", "name": "小猫咪", "year": "1999", "date": "05-09"},
     // ...
   ],
 
@@ -184,7 +177,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 2,
 
   /** 日期相关 */
 
