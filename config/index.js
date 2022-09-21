@@ -62,7 +62,7 @@ export const config = {
       // 想要发送的人的名字
       name: "大坏猫",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "o6N6g6vH-H8SEBlFO-DAo1T4odJY",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "dOHYjIucHLOgQ10jPrpxuKnaX7hYozzzYEV3QNrepEE",
       // 所在城市
@@ -96,7 +96,7 @@ export const config = {
       city: "海淀",
       horoscopeDate: '',
       horoscopeDateType: '',
-      openUrl: "",
+      openUrl: "https://s.weibo.com/top/summary/",
       festivals: [],
       customizedDateList: []
     },
@@ -108,7 +108,7 @@ export const config = {
       city: "",
       horoscopeDate: '',
       horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "https://s.weibo.com/top/summary/",
       festivals: [],
       customizedDateList: []
     },
@@ -177,7 +177,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 2,
+  FESTIVALS_LIMIT: 0,
 
   /** 日期相关 */
 
