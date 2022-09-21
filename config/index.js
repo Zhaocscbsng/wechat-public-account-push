@@ -88,30 +88,6 @@ export const config = {
         {"keyword": "marry_day", date: "2024-03-26"},
       ]
     },
-    {
-      name: "大坏猫",
-      id: "o6N6g6vH-H8SEBlFO-DAo1T4odJY",
-      useTemplateId: "ByTiUlLKSJoQJw0qVa2UHTLjHomarVtVWY8mFui1Gl0",
-      province: "北京",
-      city: "海淀",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://s.weibo.com/top/summary/",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆3",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://s.weibo.com/top/summary/",
-      festivals: [],
-      customizedDateList: []
-    },
     // 你可以不断按格式往下增加
     // ...
   ],
